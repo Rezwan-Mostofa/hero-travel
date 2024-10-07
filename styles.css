@@ -1,0 +1,114 @@
+/* mulish font styles */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,800;1,800&display=swap');
+
+
+*{
+    font-family: "Mulish", system-ui;
+    font-style: normal;
+}
+/* shared styles */
+.primary-color{
+    color: #FF5400;
+}                   
+
+/* nav styles */
+
+body{
+    max-width: 1170px;
+}
+.nav-bar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+}
+nav img{
+    margin-right: 1rem;
+}
+nav h2 {
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #131318;
+}
+nav  ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav ul a{
+    display: flex;
+    text-decoration: none; 
+    margin-right: 1.68rem ;
+}
+nav ul .primary-color{
+    font-weight: 700;
+    font-size: 1.125rem;
+} 
+nav ul a {
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #424247;
+}
+/* explore section  */
+.explore-travel{
+    position: relative;
+    width: 1170px;
+}
+.explore-title img{
+    width: 100%;
+    height: auto;
+
+}
+.explore-title{
+    position: absolute;
+    top: 40%; /* Center vertically */
+    left: 60%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    
+    
+}
+.explore-title h1{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    margin-top: 0;
+}
+.explore-title p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    display: flex;
+    text-wrap: wrap;
+}
+.explore-search button {
+    background: #FF5400;
+    color:#FFFFFF ;
+    border: none;
+    border-radius: 5px;
+
+}
+.explore-title input{
+    border: none;
+    border-radius: 5px;
+    margin-right: 1.5rem;
+    
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 20px;
+}
